@@ -1,0 +1,44 @@
+.note {
+    width: 900px;
+    height: auto;
+    margin: 30px auto;
+    border: black 1px solid;
+    align-items: center;
+    display: flex;
+}
+
+.note_info {
+    width: 750px;
+    height: auto;
+    border-right: black 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.note_text {
+    text-align: left;
+    margin: 10px 20px;
+    white-space: break-spaces;
+}
+
+.note_title {
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.note_btn_grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.btn_edit {
+    width: 50px;
+    margin: 15px;
+}
+
+.btn_delete {
+    width: 50px;
+    margin: 15px;
+}

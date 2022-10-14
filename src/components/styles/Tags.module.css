@@ -1,0 +1,18 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tags_title {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tag {
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

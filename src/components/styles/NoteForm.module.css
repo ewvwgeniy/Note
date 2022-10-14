@@ -1,0 +1,52 @@
+.create_note {
+    width: 100%;
+    margin: 10px;
+    height: 100%;
+}
+
+.fields_div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.title_label {
+    margin-bottom: 10px;
+}
+
+.note_label {
+    margin: 10px 0;
+}
+
+.note_text {
+    resize: vertical;
+}
+
+.error_message {
+    color: red;
+    font-size: smaller;
+}
+
+.button_group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_save {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_cancel {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}

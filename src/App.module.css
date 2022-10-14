@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.note_create {
+  width: 900px;
+  border: black 1px solid;
+  margin: auto;
+}
